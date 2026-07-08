@@ -18,9 +18,10 @@ def main():
 
     sum = 0
     for i in Ret:
-        sum+i
+        sum = sum+i
 
-    print(sum)
+    print(f"Prime Numbers From List are :{Ret}")
+    print(f"Addition of all Prime numbers form List are : {sum})
 
 if __name__ == "__main__":
     main()
